@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_JaySharath_1694459713206-pr-trigger-input-set
+  identifier: Build_JaySharath_1694459713206prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_JaySharath_1694459713206
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
